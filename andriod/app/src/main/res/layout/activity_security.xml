@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="480dp"
+    android:layout_margin="25dp"
+    android:background="@drawable/rectangle_one"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".SecurityActivity">
+
+    <TextView
+        android:id="@+id/security_disappear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="注销账号                                               ＞"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="10dp"
+        android:background="#CCCCCC" />
+
+    <TextView
+        android:id="@+id/security_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="清空题测数据                                      ＞"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/security_return"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/rectangle_one"
+        android:text="返回"
+        android:textColor="@color/black" />
+</LinearLayout>

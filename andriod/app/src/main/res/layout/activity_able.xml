@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:layout_margin="25dp"
+    android:background="@drawable/rectangle_one"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".AbleActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提示：需要打开以下两种权限才能正常使用拍照识物和选择图片识物的功能，您可以点击“设置”到应用管理->权限处更改权限。"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="存储(允许访问设备上的照片)"
+            android:textColor="#11D183"
+            android:textSize="16dp" />
+
+        <Switch
+            android:id="@+id/able_sw1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:checked="true"
+            android:shadowColor="#11D183"
+            android:textColor="#11D183" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="相机(允许使用相机拍摄照片)"
+            android:textColor="#11D183"
+            android:textSize="16dp" />
+
+        <Switch
+            android:id="@+id/able_sw2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:checked="true"
+            android:shadowColor="#11D183"
+            android:textColor="#11D183" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/able_setting"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="28dp"
+            android:background="@drawable/rectangle_one"
+            android:text="设置"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/able_return"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:background="@drawable/rectangle_one"
+            android:layout_marginLeft="50dp"
+            android:text="返回"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</LinearLayout>

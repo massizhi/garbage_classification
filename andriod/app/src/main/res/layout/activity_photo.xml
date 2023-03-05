@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".PhotoActivity">
+
+    <Button
+        android:id="@+id/photo_take"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_one"
+        android:text="拍照"
+        android:textColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/photo_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rectangle_one"
+        android:text="从相册中选择"
+        android:textColor="#4CAF50" />
+
+    <ImageView
+        android:id="@+id/photo_view"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/photo_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="请将物体放置于拍照中心位置"
+        android:textColor="#4CAF50"
+        android:textSize="18dp" />
+</LinearLayout>
