@@ -55,7 +55,7 @@ def main():
                                                  result[predict_class])
     plt.title(print_res)
     print(print_res)
-    plt.show()
+    # plt.show()
 
 
 if __name__ == '__main__':
