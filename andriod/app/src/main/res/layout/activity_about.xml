@@ -49,7 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
-            android:text="马科学/massizhi"
+            android:text="massizhi"
             android:textColor="#11D183"
             android:textSize="16dp" />
     </LinearLayout>
@@ -93,7 +93,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="软件为福州大学数学与计算机科学学院/软件学院学生马科学为毕业设计展示算法使用，暂无其他用途。"
+            android:text="软件为展示算法使用，暂无其他用途。"
             android:textColor="#11D183"
             android:textSize="16dp" />
     </LinearLayout>
