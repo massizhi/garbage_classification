@@ -10,9 +10,10 @@ including andriod application, springboot backend, and convnet classification
  - 图像识别运行流程为安卓客户端调用图库或图像头权限->选择图片->图片上传到后端->后端使用命令行操作调用算法predict->后端得到预测结果->返回至前端（后续可使用TensorFlow Mobile 把深度学习模型转化为pb格式文件并部署到安卓客户端）
 
 ## 2. 环境配置
-TensorFlow2.0
-Android studio（安卓开发IDE、Java）
-springboot框架（maven管理，注意导入的项目文件夹是否正确）
+
+ - TensorFlow2.0
+ - Android studio（安卓开发IDE、Java）
+ - springboot框架（maven管理，注意导入的项目文件夹是否正确）
 
 ## 3. 常见问题
 ### 3.1 predict.py
