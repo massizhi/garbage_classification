@@ -1,7 +1,7 @@
-# garbage_classification 垃圾分类应用
- - andriod application
- - springboot backend
- - convnet classification
+# Garbage Classification 垃圾分类应用
+ - Andriod Application
+ - Springboot Backend
+ - Convnet Classification
 ---
 
 ## 1. 功能
