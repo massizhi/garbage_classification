@@ -1,5 +1,7 @@
 # garbage_classification 垃圾分类应用
-including andriod application, springboot backend, and convnet classification
+ - andriod application
+ - springboot backend
+ - convnet classification
 ---
 
 ## 1. 功能
@@ -21,7 +23,7 @@ TensorFlow对图片预测的代码主要在这里面，注意确认一些路径�
 ### 3.2 APP运行拍照就闪退
 代码没有问题的前提下，可能是手机系统没有分配访问相机相册权限给这个APP。
 ### 3.3 照片无法上传
-拍照过后发现照片没有上传到相应文件夹，且会报“”，可能是IP地址没有修改。在CMD中使用ipconfig指令查看ip地址，并修改前端连接服务器的相应代码的ip地址（此处有注释）。
+拍照过后发现照片没有上传到相应文件夹，且会报“I/W error”，可能是IP地址没有修改。在CMD中使用ipconfig指令查看ip地址，并修改前端连接服务器的相应代码的ip地址（此处有注释）。
 ### 3.4 输出乱码
 
  - 照片上传过后输出乱码，应该是图片上传失败，排查一下图片的路径。
