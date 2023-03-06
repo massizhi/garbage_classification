@@ -31,3 +31,11 @@ TensorFlow对图片预测的代码主要在这里面，注意确认一些路径�
 
 ### 3.5 cmd运行问题
 由于windows系统进入某盘的命令如：D:这种形式。而cmd默认是在C盘目录下。这个项目写的直接在C盘运行，如果将这个项目存在其他盘，则还需要修改cmd的命令。
+
+## 4. 运行实例
+![此处输入图片的描述][1]
+![此处输入图片的描述][2]
+
+
+  [1]: https://images.cnblogs.com/cnblogs_com/massizhi/2180441/o_230306133230_%E5%9B%BE%E7%89%873.png
+  [2]: https://images.cnblogs.com/cnblogs_com/massizhi/2180441/o_230306133241_%E5%9B%BE%E7%89%874.png
