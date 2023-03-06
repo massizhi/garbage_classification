@@ -16,11 +16,11 @@ import java.util.List;
 
 @RestController
 public class Classificate {
-    @RequestMapping(value = "/up",method = RequestMethod.POST)
+    @RequestMapping(value = "/up", method = RequestMethod.POST)
     public String up(@RequestParam("file") MultipartFile file) throws Exception {
         //获取上传的图片并保存
         //下方要写绝对路径，不然transferTo不能实现
-        File result = new File("C:\\Users\\太阳\\Desktop\\predict","hello.jpg");
+        File result = new File("C:\\Users\\UserName\\Desktop\\github\\garbage_classification\\algorithm", "hello.jpg");
         if (result.exists()) {
             //System.out.println(result.getAbsolutePath() + " 文件已存在");
         }
@@ -44,7 +44,7 @@ public class Classificate {
         cmd.add("mobilenet\\predict.py");
         cmd.add("hello.jpg");
         command.addCmd(cmd);
-        File workDir = new File("C:\\Users\\太阳\\Desktop\\predict");
+        File workDir = new File("C:\\Users\\UserName\\Desktop\\github\\garbage_classification\\algorithm");
         String classification = command.processCmd(workDir);
         return classification;
     }

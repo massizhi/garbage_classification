@@ -22,7 +22,7 @@ public class TestCommand {
         cmd.add("mobilenet\\predict.py");
         cmd.add("hello.jpg");
         command.addCmd(cmd);
-        File workDir = new File("C:\\Users\\太阳\\Desktop\\predict");
+        File workDir = new File("C:\\Users\\UserName\\Desktop\\github\\garbage_classification\\algorithm");
         String classification = command.processCmd(workDir);
         System.out.println(classification);
     }

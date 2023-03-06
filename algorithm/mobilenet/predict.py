@@ -9,6 +9,7 @@ import tensorflow as tf
 
 from model_v2 import MobileNetV2
 
+
 def main():
     im_height = 224
     im_width = 224
@@ -44,7 +45,7 @@ def main():
                                  tf.keras.layers.Dense(num_classes),
                                  tf.keras.layers.Softmax()])
     weights_path = './save_weights/resMobileNetV2.ckpt'
-    assert len(glob.glob(weights_path+"*")), "cannot find {}".format(weights_path)
+    assert len(glob.glob(weights_path + "*")), "cannot find {}".format(weights_path)
     model.load_weights(weights_path)
 
     result = np.squeeze(model.predict(img))
